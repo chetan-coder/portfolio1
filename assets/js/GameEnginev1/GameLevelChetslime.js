@@ -11,7 +11,7 @@
 // 4) You can add more objects to this.classes inside the constructor.
 
 //Chet
-kj
+
 import GameEnvBackground from './essentials/GameEnvBackground.js';
 import Player from './essentials/Player.js';
 import Npc from './essentials/Npc.js';
@@ -73,7 +73,7 @@ class GameLevelChetslime {
             interact: function() { if (this.dialogueSystem) { this.showRandomDialogue(); } }
         };
         const dbarrier_1 = {
-            id: 'dbarrier_1', x: 527, y: 110, width: 49, height: 240, visible: false,
+            id: 'dbarrier_1', x: 527, y: 110, width: 49, height: 240, visible: true,
             hitbox: { widthPercentage: 0.0, heightPercentage: 0.0 },
             fromOverlay: true
         };
