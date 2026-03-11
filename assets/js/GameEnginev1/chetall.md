@@ -10,7 +10,7 @@ permalink: /gamify/chetall
 </div>
 
 <script type="module">
-    // Adnventure Game assets locations
+    // Adnventure Game Assets locations
     import Core from "{{site.baseurl}}/assets/js/GameEnginev1/essentials/Game.js";
     import GameControl from "{{site.baseurl}}/assets/js/GameEnginev1/essentials/GameControl.js";
     import GameLevelChetslime from "{{site.baseurl}}/assets/js/GameEnginev1/GameLevelChetslime.js";
