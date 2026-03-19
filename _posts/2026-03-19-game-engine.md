@@ -9,10 +9,10 @@ permalink: /game-engine/chetall
 
 {% capture code1 %}
 import GameControl from '/assets/js/GameEnginev1/essentials/GameControl.js';
-import GameEnvBackground from './essentials/GameEnvBackground.js';
-import Player from './essentials/Player.js';
-import Npc from './essentials/Npc.js';
-import Barrier from './essentials/Barrier.js';
+import GameEnvBackground from '/assets/js/GameEnginev1/essentials/GameEnvBackground.js';
+import Player from '/assets/js/GameEnginev1/essentials/Player.js';
+import Npc from '/assets/js/GameEnginev1/essentials/Npc.js';
+import Barrier from '/assets/js/GameEnginev1/essentials/Barrier.js';
 
 class GameLevelChetslime {
     constructor(gameEnv) {
@@ -81,10 +81,10 @@ export { GameControl };
 
 {% capture code2 %}
 import GameControl from '/assets/js/GameEnginev1/essentials/GameControl.js';
-import GameEnvBackground from './essentials/GameEnvBackground.js';
-import Player from './essentials/Player.js';
-import Npc from './essentials/Npc.js';
-import Barrier from './essentials/Barrier.js';
+import GameEnvBackground from '/assets/js/GameEnginev1/essentials/GameEnvBackground.js';
+import Player from '/assets/js/GameEnginev1/essentials/Player.js';
+import Npc from '/assets/js/GameEnginev1/essentials/Npc.js';
+import Barrier from '/assets/js/GameEnginev1/essentials/Barrier.js';
 
 class GameLevelChetinteractive {
     constructor(gameEnv) {
@@ -162,10 +162,10 @@ export { GameControl };
 
 {% capture code3 %}
 import GameControl from '/assets/js/GameEnginev1/essentials/GameControl.js';
-import GameEnvBackground from './essentials/GameEnvBackground.js';
-import Player from './essentials/Player.js';
-import Npc from './essentials/Npc.js';
-import Barrier from './essentials/Barrier.js';
+import GameEnvBackground from '/assets/js/GameEnginev1/essentials/GameEnvBackground.js';
+import Player from '/assets/js/GameEnginev1/essentials/Player.js';
+import Npc from '/assets/js/GameEnginev1/essentials/Npc.js';
+import Barrier from '/assets/js/GameEnginev1/essentials/Barrier.js';
 
 class GameLevelChetcustom {
     constructor(gameEnv) {
