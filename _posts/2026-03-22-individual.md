@@ -151,7 +151,7 @@ permalink: /cs111-blog/
 
 <div class="blog-wrap">
 
-<div class="meta">Mar 23, 2026 · Aadi Saini · Sprint 6 Final Project</div>
+<div class="meta">Mar 23, 2026 · Chetan Tiduwar · Sprint 6 Final Project</div>
 <h1 class="title">CS111 Blog</h1>
 <p class="subtitle">
   A complete CS111 walkthrough — a 3-level gauntlet game. Covers OOP inheritance, data types, control structures, operators, I/O, debugging, and API integration.
