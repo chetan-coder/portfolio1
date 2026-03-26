@@ -165,15 +165,16 @@ permalink: /cs111-blog/
      LIVE GAME
 ══════════════════════════════════════════════ -->
 
-<div id="game-section">
-  <h3>▶ Play the Game — 3 Levels</h3>
-  <canvas id="gameCanvas" width="760" height="440"></canvas>
-  <div id="game-controls">
-    <span>WASD / Arrow Keys — Move</span>
-    <span>R — Restart Level</span>
-    <span id="game-status">Level 1 of 3</span>
-  </div>
-</div>
+# Play the Gate Game
+
+You can play the game right below:
+
+<iframe src="https://phantom-deploy.github.io/portfolio/gamify/gategame" 
+        width="800" 
+        height="600" 
+        frameborder="0" 
+        allowfullscreen>
+</iframe>
 
 <script>
 (function() {
@@ -1237,7 +1238,7 @@ console.<span class="fn">error</span>(<span class="str">`[API] Request failed: $
 
 <div class="footer">
   Built with JavaScript · HTML5 Canvas · requestAnimationFrame<br>
-  CSSE Final Project — Sprint 6 · Aadi Saini · Mar 23, 2026
+  CSSE Final Project — Sprint 6 · Chetan Tiduwar · Mar 23, 2026
 </div>
 
 </div>
