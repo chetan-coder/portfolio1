@@ -165,7 +165,7 @@ permalink: /cs111-blog/
      LIVE GAME
 ══════════════════════════════════════════════ -->
 
-# Play the Gate Game
+# Play The Gate Game
 
 You can play the game right below:
 
