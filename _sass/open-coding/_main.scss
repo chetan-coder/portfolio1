@@ -12,12 +12,20 @@
 @import "forms/ui-runner";
 @import "forms/game-runner";
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+@import "forms/container-panel";
+>>>>>>> upstream/main
 @import "forms/pause-modal";
 @import "forms/leaderboard";
 @import "forms/game-engine";
 @import "forms/game-builder";
 @import "forms/game-dialogue-system";
+<<<<<<< HEAD
+>>>>>>> upstream/main
+=======
+@import "forms/home-gamified";
 >>>>>>> upstream/main
 @import "hacks";
 @import "hacks_lxd";
@@ -36,6 +44,7 @@
 @import "quiz";
 @import "rps_lesson";
 @import "search";
+@import "stack-clicker";
 @import "user-preferences";
 // aesthetihawk stuff
 @import "materials/main.scss";
@@ -47,6 +56,8 @@
 =======
 @import "documentation";
 @import "api-documentation";
+@import "open-coding/pixel-submit-widget";
+@import "open-coding/grading_modules";
 
 >>>>>>> upstream/main
 
