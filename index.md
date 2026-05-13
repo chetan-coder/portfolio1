@@ -1,85 +1,281 @@
 ---
-layout: post 
-title: Portfolio Home 
+layout: post
+title: Portfolio Home
 hide: true
 show_reading_time: false
 ---
 
-Hi! My name is [Your Full Name]
+<h1 style="text-align:center; font-size:4rem; font-weight:800; margin-bottom:20px;">
+Portfolio Home
+</h1>
 
-### Development Environment
+<hr>
 
-
-> Coding starts with tools, explore these tools and procedures with a click.
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="https://opencodingsociety.com" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid #FA8072; border-radius: 6px; font-weight: 700; transition: all 0.3s;">
-        <img src="{{ '/favicon.ico' | relative_url }}" alt="OCS logo" style="width: 16px; height: 16px;">
-        OCS
-    </a>
-    <a href="https://github.com/Open-Coding-Society/portfolio" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid #FFF; border-radius: 6px; font-weight: 700; transition: all 0.3s;">
-        <svg style="width: 16px; height: 16px; fill: currentColor;" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
-        </svg>
-        GitHub
-    </a>
-    <a href="https://vscode.dev/" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid #007ACC; border-radius: 6px; font-weight: 700; transition: all 0.3s;">
-        <svg style="width: 16px; height: 16px; fill: currentColor;" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-            <path d="M11.34 0L5.66 5.39l-2.4-1.8L1.19 4.82v6.36l2.07 1.23 2.4-1.8L11.34 16 15 14.23V1.77L11.34 0zm.59 11.57l-3.86-3.54 3.86-3.54v7.08z"/>
-        </svg>
-        VSCode.dev
-    </a>
-</div>
+<p style="font-size:1.5rem;">
+Hi! My name is Chetan Tiduwar
+</p>
 
 <br>
 
-### My Lessons
+<h2 style="font-size:3rem;">
+Development Environment
+</h2>
 
-> Foundations in Tech are essential, click to see some of my lesson creations.
+<hr>
 
+<blockquote>
+  <p style="font-size:1.4rem;">
+    Coding starts with tools, explore these tools and procedures with a click.
+  </p>
+</blockquote>
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/code/javascript" style="text-decoration: none;">
-        <div style="background-color: var(--green); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
-           JS Basics
-        </div>
+<div style="display: flex; flex-wrap: wrap; gap: 14px; margin-top: 12px;">
+
+    <a href="https://opencodingsociety.com" style="
+       text-decoration: none;
+       background: linear-gradient(135deg, #111827, #1F2937);
+       color: white;
+       padding: 14px 22px;
+       border-radius: 12px;
+       border: 2px solid #FA8072;
+       font-weight: 700;
+       box-shadow: 0 0 12px rgba(250,128,114,0.4);
+       transition: all 0.25s ease;">
+       OCS
     </a>
-    <a href="{{site.baseurl}}/game/essentials/variables" style="text-decoration: none;">
-        <div style="background-color: var(--blue); color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
-           JS Variables
-        </div>
+
+    <a href="https://github.com/Open-Coding-Society/portfolio" style="
+       text-decoration: none;
+       background: linear-gradient(135deg, #111827, #1F2937);
+       color: white;
+       padding: 14px 22px;
+       border-radius: 12px;
+       border: 2px solid #3B82F6;
+       font-weight: 700;
+       box-shadow: 0 0 12px rgba(59,130,246,0.4);
+       transition: all 0.25s ease;">
+       GitHub
     </a>
-    <a href="{{site.baseurl}}/gamerunner" style="text-decoration: none;">
-        <div style="background-color: var(--warn); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
-           Gamerunner
-        </div>
+
+    <a href="https://vscode.dev/" style="
+       text-decoration: none;
+       background: linear-gradient(135deg, #0F172A, #007ACC);
+       color: white;
+       padding: 14px 22px;
+       border-radius: 12px;
+       border: 2px solid #38BDF8;
+       font-weight: 700;
+       box-shadow: 0 0 12px rgba(56,189,248,0.4);
+       transition: all 0.25s ease;">
+       VSCode.dev
     </a>
-    <a href="{{site.baseurl}}/network/stack" style="text-decoration: none;">
-        <div style="background-color: var(--orange); color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
-           Networking
-        </div>
-    </a>
+
 </div>
 
-<br>
+<br><br>
 
-### Class Progress
+<h2 style="font-size:3rem;">
+My Lessons
+</h2>
 
-> Here is my game progress through coding, click to see these in the browser
+<hr>
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/snake" class="btn">
-        Snake
+<blockquote>
+  <p style="font-size:1.4rem;">
+    Foundations in Tech are essential, click to see some of my lesson creations.
+  </p>
+</blockquote>
+
+<div style="display: flex; flex-wrap: wrap; gap: 14px; margin-top: 12px;">
+
+    <a href="{{site.baseurl}}/code/javascript" style="
+       text-decoration: none;
+       background: linear-gradient(135deg, #14532D, #4ADE80);
+       color: black;
+       padding: 14px 22px;
+       border-radius: 12px;
+       font-weight: 700;
+       border: 2px solid #86EFAC;
+       box-shadow: 0 0 12px rgba(74,222,128,0.4);">
+       JS Basics
     </a>
-    <a href="{{site.baseurl}}/gamify/parallax" class="btn" style="background-color: var(--green); ">
-        Fish
+
+    <a href="{{site.baseurl}}/game/essentials/variables" style="
+       text-decoration: none;
+       background: linear-gradient(135deg, #1E3A8A, #60A5FA);
+       color: white;
+       padding: 14px 22px;
+       border-radius: 12px;
+       font-weight: 700;
+       border: 2px solid #93C5FD;
+       box-shadow: 0 0 12px rgba(96,165,250,0.4);">
+       JS Variables
     </a>
-    <a href="{{site.baseurl}}/gamify" class="btn" style="background-color: var(--teal);">
+
+    <a href="{{site.baseurl}}/gamerunner" style="
+       text-decoration: none;
+       background: linear-gradient(135deg, #78350F, #FACC15);
+       color: black;
+       padding: 14px 22px;
+       border-radius: 12px;
+       font-weight: 700;
+       border: 2px solid #FDE047;
+       box-shadow: 0 0 12px rgba(250,204,21,0.4);">
+       Gamerunner
+    </a>
+
+    <a href="{{site.baseurl}}/network/stack" style="
+       text-decoration: none;
+       background: linear-gradient(135deg, #7C2D12, #FB923C);
+       color: white;
+       padding: 14px 22px;
+       border-radius: 12px;
+       font-weight: 700;
+       border: 2px solid #FDBA74;
+       box-shadow: 0 0 12px rgba(251,146,60,0.4);">
+       Networking
+    </a>
+
+</div>
+
+<br><br>
+
+<h2 style="font-size:3rem;">
+Class Progress
+</h2>
+
+<hr>
+
+<blockquote>
+  <p style="font-size:1.4rem;">
+    Here is my game progress through coding, click to see these in the browser.
+  </p>
+</blockquote>
+
+<div style="display: flex; flex-wrap: wrap; gap: 14px; margin-top: 12px;">
+
+    <a href="{{site.baseurl}}/snake" style="
+       text-decoration: none;
+       background: linear-gradient(135deg, #111827, #2563EB);
+       color: white;
+       padding: 14px 22px;
+       border-radius: 12px;
+       border: 2px solid #60A5FA;
+       font-weight: 700;
+       box-shadow: 0 0 12px rgba(37,99,235,0.4);">
+       Snake
+    </a>
+
+    <a href="{{site.baseurl}}/gamify/parallax" style="
+       text-decoration: none;
+       background: linear-gradient(135deg, #064E3B, #4ADE80);
+       color: white;
+       padding: 14px 22px;
+       border-radius: 12px;
+       border: 2px solid #86EFAC;
+       font-weight: 700;
+       box-shadow: 0 0 12px rgba(74,222,128,0.4);">
+       Fish
+    </a>
+
+    <a href="{{site.baseurl}}/gamify" style="
+       text-decoration: none;
+       background: linear-gradient(135deg, #0F172A, #14B8A6);
+       color: white;
+       padding: 14px 22px;
+       border-radius: 12px;
+       border: 2px solid #2DD4BF;
+       font-weight: 700;
+       box-shadow: 0 0 12px rgba(20,184,166,0.4);">
        Gamify
     </a>
-    <a href="{{site.baseurl}}/cs-pathway" class="btn" style="background-color: var(--orange);">
+
+    <a href="{{site.baseurl}}/cs-pathway" style="
+       text-decoration: none;
+       background: linear-gradient(135deg, #7C2D12, #F97316);
+       color: white;
+       padding: 14px 22px;
+       border-radius: 12px;
+       border: 2px solid #FB923C;
+       font-weight: 700;
+       box-shadow: 0 0 12px rgba(249,115,22,0.4);">
        CS Pathway
     </a>
+
 </div>
 
-<br>
+<br><br>
+
+<h2 style="font-size:3rem;">
+My Projects
+</h2>
+
+<hr>
+
+<blockquote>
+  <p style="font-size:1.4rem;">
+    Here are some tools and apps I built, click to try them!
+  </p>
+</blockquote>
+
+<div style="display: flex; flex-wrap: wrap; gap: 14px; margin-top: 12px;">
+
+    <a href="{{site.baseurl}}/exam-predictor" style="
+       text-decoration: none;
+       background: linear-gradient(135deg, #1D4ED8, #60A5FA);
+       color: white;
+       padding: 14px 22px;
+       border-radius: 12px;
+       font-weight: 700;
+       border: 2px solid #93C5FD;">
+       Exam Predictor
+    </a>
+
+    <a href="{{site.baseurl}}/grade-predictor" style="
+       text-decoration: none;
+       background: linear-gradient(135deg, #166534, #4ADE80);
+       color: black;
+       padding: 14px 22px;
+       border-radius: 12px;
+       font-weight: 700;
+       border: 2px solid #86EFAC;">
+       Grade Predictor
+    </a>
+
+    <a href="{{site.baseurl}}/study-tracker" style="
+       text-decoration: none;
+       background: linear-gradient(135deg, #0F766E, #2DD4BF);
+       color: white;
+       padding: 14px 22px;
+       border-radius: 12px;
+       font-weight: 700;
+       border: 2px solid #5EEAD4;">
+       Study Tracker
+    </a>
+
+    <a href="{{site.baseurl}}/score-predictor" style="
+       text-decoration: none;
+       background: linear-gradient(135deg, #C2410C, #FB923C);
+       color: white;
+       padding: 14px 22px;
+       border-radius: 12px;
+       font-weight: 700;
+       border: 2px solid #FDBA74;">
+       Score Predictor
+    </a>
+
+</div>
+
+<br><br><br>
+
+<h2 style="font-size:3rem;">
+About Me
+</h2>
+
+<hr>
+
+<blockquote>
+I am a student developer interested in coding, game development, and web applications. I enjoy building interactive projects with JavaScript and exploring how software and design work together to create engaging experiences.
+</blockquote>
+
+<br><br>
